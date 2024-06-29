@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="..\Paginas Web\CSS\vivero.css">
+  <title>Tu Vivero - Plantas a tu alcance</title>
+  
+</head>
+<body>
+  <header>
+    <h1>Tu Vivero</h1>
+    <p>Plantas a tu alcance</p>
+  </header>
+  <nav>
+    <a href="#contacto">Contacto</a> |
+    <a href="#galeria">Galería</a> |
+    <a href="#compras">Compras</a>
+  </nav>
+  
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form action="mailto:valeriamendoza@gmail.com" method="post" enctype="text/plain">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Correo electrónico:</label>
+      <input type="text" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+  
+  <section id="galeria">
+    <h2>Galería de Plantas</h2>
+    <div class="gallery">
+      <img src="../Paginas Web/IMG/cactus.jpg" alt="Cactus" class="imagen-ajustada">
+      <img src="../Paginas Web/IMG/orquidea.jpg" alt="Orquidea" class="imagen-ajustada">
+      <img src="../Paginas Web/IMG/tulipan.jpg" alt="Tulipan" class="imagen-ajustada">
+      <img src="../Paginas Web/IMG/uña.jpg" alt="Uña de señorita" class="imagen-ajustada">
+      <img src="../Paginas Web/IMG/pdesombra.jpg" alt="Planta de sombra" class="imagen-ajustada">
+      <img src="../Paginas Web/IMG/abundancia.jpg" alt="Arbol de la abundancia" class="imagen-ajustada">
+      <img src="../Paginas Web/IMG/morada.jpg" alt="Planta morada" class="imagen-ajustada">
+      <img src="../Paginas Web/IMG/primavera.jpg" alt="Primaevera" class="imagen-ajustada">
+      <!-- Agrega más imágenes según necesites -->
+    </div>
+  </section>
+  
+  <section id="compras">
+    <h2>Compras de Plantas</h2>
+    <p>Proximamente podras comprar nuestras plantas en línea!</p>
+    <!-- Aquí se incluiría el formulario de compra y el proceso de pago -->
+  </section>
+</body>
+</html>

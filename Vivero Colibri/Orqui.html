@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="stylesheet" href="..\Vivero Colibri\CSS\estilos.css"> 
+  <link rel="stylesheet" href="..\Vivero Colibri\CSS\vivero.css">
+  <link rel="stylesheet" href="..\Vivero Colibri\CSS\ajustarimg.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <title>Suculentas</title>
+</head>
+<body>
+
+  <div class="header-container">
+    <header>
+      <h1>VIVERO COLIBRIS</h1>
+      <img src="../Vivero Colibri/IMG/logo.jpg" id="logo" width="150" alt="Logo">
+      <p><b>Donde florecen los sueños</b></p>
+    </header>
+  <nav class="nav">
+    <ul class="list">
+      <li class="list_item">
+        <div class="list_button">
+            <img src="..\Vivero Colibri\ASSETS\home.svg" class="list_img">
+            <a href="../Vivero Colibri/index.html" class="nav_link">INICIO</a>
+        </div>
+      </li>
+
+
+      <li>
+        <div class="list_button">
+          <img src="..\Vivero Colibri\ASSETS\galeria.svg" class="list_img">
+          <a href="..\Vivero Colibri\index.html#galeria" class="nav_link">GALERÍA</a>
+      </div>
+        </li>
+
+      <li class="list_item list_item--click">
+        <div class="list_button list_button--click">
+          <img src="..\Vivero Colibri\ASSETS\categ.svg" class="list_img"> 
+          <a href="#" class="nav_link">CATEGORIAS</a>
+          <img  src="../Vivero Colibri\ASSETS\arrow.svg" class="list_arrow"> 
+        </div>
+        <ul class="list_show">
+            <li class="list_inside">
+                <a href="../Vivero Colibri/Arboles.html" class="nav_link nav_link--inside">Arboles frutales</a>
+              </li>
+              <li class="list_inside">
+                <a href="../Vivero Colibri/Rosas.html" class="nav_link nav_link--inside">Rosas</a>
+              </li>
+              <li class="list_inside">
+                <a href="../Vivero Colibri/Suculentas.html" class="nav_link nav_link--inside">Suculentas</a>
+              </li>
+              <li class="list_inside">
+                <a href="../Vivero Colibri/Palm.html" class="nav_link nav_link--inside">Palmeras</a>
+              </li>
+            </li>
+            <li class="list_inside">
+              <a href="../Vivero Colibri/Herb.html" class="nav_link nav_link--inside">Herbaceas</a>
+            </li>
+          </li>
+          <li class="list_inside">
+            <a href="../Vivero Colibri/Orqui.html" class="nav_link nav_link--inside">Orquideas</a>
+          </li>
+          
+        </ul>
+      </li>
+    </ul>
+    
+  </nav>
+
+      
+    <div class="gallery" id="galeria">
+      <h2>Orquideas</h2><br>
+      <ul class="list-unstyled">
+        <li>
+          <img src="../Vivero Colibri/IMG/orquidea.png" alt="Orquidea" class="imagen-ajustada">
+          <button type="button" class="btn btn-link" data-toggle="tooltip" data-html="true" data-placement="top" 
+          title="Caracteristicas:<br><br> Planta de la familia Orchidaceae, con flores exóticas y variadas en colores y formas.
+          <br><br>Cuidados:<br>Luz: Luz indirecta brillante<br>Riego: Moderado<br>Humedad: Alta, preferible en un ambiente humedo.">Orquidea</button>
+      </li>
+      </ul>
+  </div>
+
+  <!-- Incluir jQuery y Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <script>
+      $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+      })
+  </script>
+              
+              
+    <script src="..\Vivero Colibri\JS\main.js"></script>
+</body>
+</html>
